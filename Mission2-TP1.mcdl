@@ -1,0 +1,48 @@
+{
+  "Nom": "Mission2-TP1",
+  "Version": 1,
+  "Entites": [
+    {
+      "Id": "8c549584-06a0-428f-8ec1-1a22c28426a6",
+      "Nom": "EMPLOYE",
+      "X": 420,
+      "Y": 200,
+      "Attributs": [
+        {
+          "Nom": "N\u00B0insee",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "Nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        },
+        {
+          "Nom": "Pr\u00E9nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    },
+    {
+      "Id": "d8f9687d-cd5e-44b7-93c7-d16566f95c9e",
+      "Nom": "SERVICE",
+      "X": 600,
+      "Y": 200,
+      "Attributs": [
+        {
+          "Nom": "Code",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "D\u00E9signation",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    }
+  ],
+  "Associations": []
+}

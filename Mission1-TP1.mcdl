@@ -1,0 +1,30 @@
+{
+  "Nom": "Mission1-TP1",
+  "Version": 1,
+  "Entites": [
+    {
+      "Id": "9e063b96-2d0f-4ab3-a4f3-6c30c3424b9e",
+      "Nom": "CLIENT",
+      "X": 420,
+      "Y": 200,
+      "Attributs": [
+        {
+          "Nom": "Num\u00E9ro",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "Nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        },
+        {
+          "Nom": "Pr\u00E9nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    }
+  ],
+  "Associations": []
+}
